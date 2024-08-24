@@ -2,7 +2,7 @@
 Multi-task learning model built using NCI-60 dataset for compounds features and CellMiner for molecular profile features
 
 
-# NCI-60_data_preparation
+##  NCI-60_data_preparation
 NCI-60 data preparation.
 
 **Requirements:**<br/>
@@ -35,3 +35,13 @@ Chemical data download link: https://wiki.nci.nih.gov/display/NCIDTPdata/Chemica
 4. Once all the files are ready, run the followint script: **python Data_processing.py**
 6. The output of this scipt will be automatically store into **Dataset/All_tested_molecules.csv** and **Features** directory for next step.
 7. The **Features** directory will have 60 .csv files, each for the one cell line. The colums names are: [NLOGGI50, NSC, SMILE, molecular features]
+
+## Random CV model building
+TODO
+
+## LOCO CV
+TODO
+
+## LOTO CV
+TODO
+
