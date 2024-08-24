@@ -40,13 +40,13 @@ Chemical data download link: https://wiki.nci.nih.gov/display/NCIDTPdata/Chemica
 
 **Random CV**
 
-TODO
+`TODO`
 
 **LOCO CV**
 
-TODO
+`TODO`
 
 **LOTO CV**
 
-TODO
+`TODO`
 
