@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=train-HCT-116
+#SBATCH --job-name=prediction
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=50
 #SBATCH --partition=fast
