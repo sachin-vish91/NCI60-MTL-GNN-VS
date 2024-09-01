@@ -6,7 +6,7 @@ A multi-task learning model developed using the NCI-60 dataset for compound feat
 ##  1. Environment Setup for Running the Models:
 
 
-**Requirements for RF, XGB, and DNN:**<br/>
+**(i) Requirements for RF, XGB, and DNN:**<br/>
 Python      &nbsp; &nbsp; &nbsp;  3.7.3<br/>
 MolVS       &nbsp; &nbsp; &nbsp;   0.1.1<br/>
 standardiser &nbsp; &nbsp; &nbsp;  0.1.9<br/>
@@ -22,7 +22,7 @@ keras-tuner   &nbsp; &nbsp; &nbsp;   1.0.3<br/>
 xgboost       &nbsp; &nbsp; &nbsp;   1.1.1<br/>
 hyperopt      &nbsp; &nbsp; &nbsp;   0.2.5<br/>
 
-**Chemprop Installation to D-MPNN Model**<br/>
+**(ii) Chemprop Installation to run D-MPNN Model training and inference**<br/>
 To run the Directed Message Passing Neural Network (D-MPNN) model, follow the detailed installation instructions provided in the Chemprop GitHub repository (https://github.com/chemprop/chemprop). Carefully adhere to these instructions to ensure a successful setup.
 
 ##  2. Data preparation
@@ -44,5 +44,5 @@ Chemical data download link: https://wiki.nci.nih.gov/display/NCIDTPdata/Chemica
 
 ## 3. Machine learning model building
 
-After preparing the dataset, users can utilize the provided scripts to perform random splitting, Leave-One-Task-Out (LOTO), and Leave-One-Type-Out (LOTO) analyses. These scripts enable users to reproduce the results as detailed in the thesis.
+After preparing the dataset, users can utilize the provided scripts to run training on random split, Leave-One-Task-Out (LOTO) CV, and Leave-One-Type-Out (LOTO) CV. These scripts enable users to reproduce the results as detailed in the thesis for Multi-task learning.
 
